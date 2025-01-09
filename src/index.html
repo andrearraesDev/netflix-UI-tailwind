@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Projeto Netflix</title>
+</head>
+
+<body
+    class="h-fit w-full bg-no-repeat bg-[url('https://assets.nflxext.com/ffe/siteui/vlv3/aa9edac4-a0e6-4f12-896e-32c518daec62/web/BR-pt-20241223-TRIFECTA-perspective_e0b608e6-ac31-4df7-ae71-503a0cacb763_large.jpg')]">
+
+    <div class="bg-black/50 absolute w-full h-fit">
+
+        <!-- Header -->
+        <header>
+            <img class="w-60 p-8" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Logo">
+        </header>
+
+        <!-- Main Content -->
+        <main class="flex justify-center pb-20">
+            <section class="bg-black/70 w-4/12 text-white p-14 rounded space-y-8">
+
+                <!-- Login Section -->
+                <h2 class="text-3xl font-bold">Entrar</h2>
+
+                <div class="space-y-3">
+                    <input class="bg-neutral-700 w-full h-12 rounded p-5 placeholder-neutral-300 text-neutral-300"
+                        placeholder="Email ou número de celular" type="text">
+                    <input class="bg-neutral-700 w-full h-12 rounded p-5 placeholder-neutral-300 text-neutral-300"
+                        placeholder="Senha" type="password">
+                </div>
+
+                <div class="space-y-2">
+                    <a href="home.html" class="w-full"> <button
+                            class="bg-red-600 w-full p-3 rounded font-bold hover:bg-red-500 transition duration-300 ease-in-out">
+                            Entrar </button> </a>
+
+                    <div class="flex justify-between text-sm text-neutral-300">
+                        <div class="flex items-center">
+                            <input class="w-4 h-4 mr-1" type="checkbox" id="remember" />
+                            <label for="remember">Lembre-se de mim</label>
+                        </div>
+                        <a class="hover:underline" href="#">Precisa de ajuda?</a>
+                    </div>
+                </div>
+
+                <div class="space-y-2 pb-12">
+                    <p class="text-neutral-400">
+                        Novo por aqui? <a class="text-white hover:underline" href="#">Assine agora</a>
+                    </p>
+                    <p class="text-sm text-neutral-400">
+                        Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô.
+                        <a class="text-blue-500 hover:underline" href="#">Saiba mais.</a>
+                    </p>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="bg-black/70 w-full h-64 text-neutral-400 py-8 px-48 space-y-8">
+            <p>
+                Novo por aqui? <a class="hover:underline" href="#">Assine agora</a>
+            </p>
+
+            <div class="grid grid-cols-4 gap-4 text-sm underline cursor-pointer">
+                <div><a href="#">Perguntas frequentes</a></div>
+                <div><a href="#">Central de Ajuda</a></div>
+                <div><a href="#">Termos de Uso</a></div>
+                <div><a href="#">Privacidade</a></div>
+                <div><a href="#">Preferências de cookies</a></div>
+                <div><a href="#">Informações corporativas</a></div>
+            </div>
+
+            <select class="bg-transparent border px-2 py-3 rounded border-neutral-400/50">
+                <option class="bg-black" value="">🌐 Português</option>
+                <option class="bg-black" value="">🌐 Inglês</option>
+            </select>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

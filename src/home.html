@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <title>Netflix Tailwind</title>
+</head>
+
+<body class="h-fit w-full bg-cover bg-no-repeat bg-[url(../src/foto2.png)]">
+
+    <!-- Background Section -->
+    <section class="bg-gradient-to-b from-transparent from-70% to-black h-screen w-screen absolute">
+
+        <!-- Header -->
+        <header class="flex px-12 items-center text-white w-screen h-20 bg-gradient-to-b from-black/60 to-transparent">
+            <img class="w-48 p-8" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Logo">
+
+            <nav class="space-x-3 flex-auto pl-4">
+                <a class="font-bold" href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Bombando</a>
+                <a href="#">Minha lista</a>
+                <a href="#">Navegar por idiomas</a>
+            </nav>
+
+            <div class="flex space-x-2 items-center">
+                <i class="bx bx-search text-3xl"></i>
+                <p>Infantil</p>
+                <i class="bx bx-bell text-2xl"></i>
+                <img class="w-9 rounded" src="https://randomuser.me/api/portraits/lego/6.jpg" alt="Avatar do usuário">
+                <i class="bx bxs-down-arrow text-sm"></i>
+            </div>
+        </header>
+
+        <!-- Content Section -->
+        <section class="text-white w-5/12 pl-14 relative left-0 top-16">
+            <img src="logo.png" alt="Logo do filme">
+
+            <div class="py-2 flex space-x-4 items-center">
+
+                <div class="bg-red-600 px-2 py-1 rounded w-min text-center font-bold space-y-0 leading-none">
+                    <span class="text-sm leading-none">Top 10</span>
+                </div>
+                <p class="text-xl font-bold">
+                    Top 3 em flmes hoje
+                </p>
+
+            </div>
+
+            <p class="font-medium py-4">
+                Durante a Segunda Guerra, um batalhão de mulheres negras do exército norte-americano assume uma missão
+                impossível. Drama de Tyler Perry baseado em uma história real.
+            </p>
+
+            <div class="text-xl font-semibold flex space-x-3">
+                <button
+                    class="bg-white text-black px-4 py-2 flex items-center justify-center rounded hover:bg-gray-300">
+                    <i class="bx bx-play text-3xl"></i>
+                    <span>Assistir</span>
+                </button>
+                <button
+                    class="bg-neutral-500/60 px-4 py-2 flex items-center justify-center rounded space-x-2 hover:bg-neutral-500/30">
+                    <i class="bx bx-info-circle text-3xl"></i>
+                    <span>Mais informações</span>
+                </button>
+            </div>
+        </section>
+
+    </section>
+
+</body>
+
+</html>
